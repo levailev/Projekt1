@@ -11,11 +11,11 @@
         android:layout_width="300dp"
         android:layout_height="300dp"
         android:layout_centerInParent="true"
-        app:cpb_background_progressbar_color="#b6bbd8"
-        app:cpb_background_progressbar_width="5dp"
+        app:cpb_background_progressbar_color="#00CCCEDD"
+        app:cpb_background_progressbar_width="15dp"
         app:cpb_progress_direction="to_right"
         app:cpb_progress_max="25000"
-        app:cpb_progressbar_color="#42A5F5"
+        app:cpb_progressbar_color="#008DFF"
         app:cpb_progressbar_width="10dp"
         app:cpb_round_border="true" />
 

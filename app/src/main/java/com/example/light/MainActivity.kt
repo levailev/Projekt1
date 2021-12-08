@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity(), SensorEventListener {
         if (event?.sensor?.type == Sensor.TYPE_LIGHT) {
             val light1 = event.values[0]
 
-            text.text = "Sensor: $light1\n${brightness(light1)}"
+            text.text = "Fény(LUX): $light1\n${brightness(light1)}"
             pb.setProgressWithAnimation(light1)
         }
     }
